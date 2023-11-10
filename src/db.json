@@ -1,0 +1,293 @@
+{
+  "ApiData": {
+    "Ecommerce": {
+      "TotalVisits": 900,
+      "TotalVisitPercent": 1.29,
+      "TotalSubscribers": 32,
+      "TotalSubscribersPercent": 1.29,
+      "ActiveUsers": 20,
+      "TotalClicks": 199,
+      "LineChartData": {
+        "weekly": {
+          "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [100, 150, 200, 180],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "#8EF27E",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [180, 200, 250, 230],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "#2B3FF2",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        },
+        "monthly": {
+          "labels": ["November", "December", "January", "February", "March", "April"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [500, 600, 750, 900, 850, 950],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "rgba(255, 99, 132, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [800, 900, 1100, 1200, 1050, 1300],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "rgba(53, 162, 235, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        },
+        "yearly": {
+          "labels": ["2022", "2023", "2024", "2025"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [2500, 2800, 3200, 3000],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "rgba(255, 99, 132, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [3000, 3200, 3800, 3500],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "rgba(53, 162, 235, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        }
+      },
+      "StackedBarData": {
+        "labels": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "datasets": [
+          {
+            "label": "Cities",
+            "data": [30000, 45000, 60000, 75000, 90000, 105000, 120000],
+            "backgroundColor": "rgb(251, 69, 64)",
+            "barThickness":8
+          },
+          {
+            "label": "Countries",
+            "data": [20000, 35000, 50000, 65000, 80000, 95000, 110000],
+            "backgroundColor": "rgb(0, 242, 222)",
+            "barThickness":8
+          }
+          
+        ]
+      },
+      "DoughnutData": {
+        "labels": ["Total Visited", "Users Signed Up", "Users Unsubscribed"],
+        "datasets": [
+          {
+            "label": "Total Users",
+            "data": [5000, 3000, 1000],
+            "backgroundColor": [
+              "#3F46F7",
+              "#3D30A2",
+              "#27005D"
+            ],
+            "borderColor": [
+              "rgba(24, 48, 100, 1)",
+              "rgba(36, 70, 137, 1)",
+              "rgba(13, 26, 51, 1)"
+            ],
+            "borderWidth": 0.2,
+            "borderRadius": 10,
+            "margin": 10
+          }
+        ]
+      },
+      "BarLineData": {
+        "labels": [
+          "January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"
+        ],
+        "datasets": [
+          {
+            "label": "User Subscribed",
+            "data": {
+              "2023": [-5, -8, -10, -12, -15, -18, -20, -22, -25, -28, -30, -32],
+              "2022": [-7, -9, -11, -13, -16, -19, -21, -23, -26, -29, -31, -33],
+              "2021": [-9, -10, -13, -14, -17, -20, -23, -25, -28, -31, -34, -36]
+            },
+            "backgroundColor": "#FB4540"
+          },
+          {
+            "label": "User Sign Up",
+            "data": {
+              "2023": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65],
+              "2022": [12, 18, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67],
+              "2021": [14, 20, 24, 29, 34, 39, 44, 49, 54, 59, 64, 69]
+            },
+            "backgroundColor": "#0082CC"
+          },
+          {
+            "label": "Line Data",
+            "data": {
+              "2023": [12, 22, 17, 27, 32, 37, 42, 47, 52, 57, 62, 67],
+              "2022": [12, 22, 17, 27, 32, 37, 42, 47, 52, 57, 62, 67],
+              "2021": [14, 24, 19, 29, 34, 39, 44, 49, 54, 59, 64, 69]
+            },
+            "borderColor": "#00F2DE",
+            "borderDash": [5, 5],
+            "pointRadius": 5,
+            "type": "line"
+          }
+        ]
+      }
+    },
+    "SocialMedia": {
+      "TotalVisits": 1200,
+      "TotalVisitPercent": 1.8,
+      "TotalSubscribers": 45,
+      "TotalSubscribersPercent": 2.1,
+      "ActiveUsers": 25,
+      "TotalClicks": 250,
+      "LineChartData": {
+        "weekly": {
+          "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [120, 180, 230, 200],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "rgba(255, 99, 132, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [200, 250, 300, 280],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "rgba(53, 162, 235, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        },
+        "monthly": {
+          "labels": ["May", "June", "July", "August", "September", "October"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [700, 800, 950, 1100, 1000, 1200],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "rgba(255, 99, 132, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [1000, 1100, 1300, 1400, 1200, 1500],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "rgba(53, 162, 235, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        },
+        "yearly": {
+          "labels": ["2023", "2024", "2025", "2026"],
+          "datasets": [
+            {
+              "label": "Sessions",
+              "data": [3000, 3400, 3800, 3600],
+              "borderColor": "rgb(255, 99, 132)",
+              "backgroundColor": "rgba(255, 99, 132, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            },
+            {
+              "label": "Visits",
+              "data": [3500, 3700, 4200, 4000],
+              "borderColor": "rgb(53, 162, 235)",
+              "backgroundColor": "rgba(53, 162, 235, 0.5)",
+              "cubicInterpolationMode": "monotone"
+            }
+          ]
+        }
+      },
+      "StackedBarData": {
+        "labels": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "datasets": [
+          {
+            "label": "Cities",
+            "data": [40000, 55000, 70000, 85000, 100000, 115000, 130000],
+            "backgroundColor": "rgb(251, 69, 64)",
+            "barThickness": 8
+          },
+          {
+            "label": "Countries",
+            "data": [25000, 40000, 55000, 70000, 85000, 100000, 115000],
+            "backgroundColor": "rgb(0, 242, 222)",
+            "barThickness": 8
+          }
+        ]
+      },
+      "DoughnutData": {
+        "labels": ["Total Visited", "Users Signed Up", "Users Unsubscribed"],
+        "datasets": [
+          {
+            "label": "Total Users",
+            "data": [6000, 3500, 1200],
+            "backgroundColor": [
+              "#AA46F7",
+              "#8D30A2",
+              "#5F005D"
+            ],
+            "borderColor": [
+              "rgba(74, 48, 100, 1)",
+              "rgba(86, 70, 137, 1)",
+              "rgba(43, 26, 51, 1)"
+            ],
+            "borderWidth": 0.2,
+            "borderRadius": 10,
+            "margin": 10
+          }
+        ]
+      },
+      "BarLineData": {
+        "labels": [
+          "January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"
+        ],
+        "datasets": [
+          {
+            "label": "User Subscribed",
+            "data": {
+              "2023": [-6, -9, -11, -14, -17, -20, -22, -25, -28, -30, -33, -36],
+              "2022": [-8, -10, -12, -15, -18, -21, -23, -26, -29, -31, -34, -37],
+              "2021": [-10, -11, -14, -15, -18, -21, -24, -26, -29, -32, -35, -38]
+            },
+            "backgroundColor": "#FF8640"
+          },
+          {
+            "label": "User Sign Up",
+            "data": {
+              "2023": [12, 17, 22, 27, 32, 37, 42, 47, 52, 57, 62, 67],
+              "2022": [14, 20, 24, 29, 34, 39, 44, 49, 54, 59, 64, 69],
+              "2021": [16, 22, 26, 31, 36, 41, 46, 51, 56, 61, 66, 71]
+            },
+            "backgroundColor": "#00A2CC"
+          },
+          {
+            "label": "Line Data",
+            "data": {
+              "2023": [14, 24, 19, 29, 34, 39, 44, 49, 54, 59, 64, 69],
+              "2022": [15, 25, 20, 30, 35, 40, 45, 50, 55, 60, 65, 70],
+              "2021": [18, 28, 23, 33, 38, 43, 48, 53, 58, 63, 68, 73]
+            },
+            "borderColor": "#00C2DE",
+            "borderDash": [5, 5],
+            "pointRadius": 5,
+            "type": "line"
+          }
+        ]
+      }
+    }
+  }    
+}

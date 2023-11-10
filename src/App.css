@@ -1,0 +1,25 @@
+.myCard{
+    background-color: #250442 !important;
+    box-shadow: 5px 5px 5px black, -0.1px -0.1px 2px white;
+}
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: #3F46F7;
+    margin-top: 12px;
+    border-radius: 4px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallboxes{
+    height:23px;
+    width: 63px;
+    border-radius: 2px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
