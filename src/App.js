@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { Card, CardBody } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faDollarSign, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import Dropdown from 'react-bootstrap/Dropdown';
 import StackedBar from './Charts/StackedBar';
@@ -87,7 +87,7 @@ useEffect(()=>{
                 <div className='d-flex justify-content-between align-items-center'>
                   <div className='d-flex align-items-center'>
                     <div className='box ' style={{backgroundColor:'#FE8743' }}>
-                      <FontAwesomeIcon icon={faArrowDown} style={{color:'white'}} />
+                      <FontAwesomeIcon icon={faArrowUp} style={{color:'white'}} />
                     </div>
                     <div style={{marginLeft:'20px'}}>
                       <p className='text-nowrap' style={{color:'#8C89B4',margin:'0px',fontSize:'15px'}}>Total Subscribers</p>
@@ -106,7 +106,7 @@ useEffect(()=>{
               <Card.Body>
                 <div className='d-flex'>
                   <div className='box ' style={{backgroundColor:'#00C543' }}>
-                    <FontAwesomeIcon icon={faArrowDown} style={{color:'white'}} />
+                    <FontAwesomeIcon icon={faUser} style={{color:'white'}} />
                   </div>
                   <div style={{fontFamily: 'Space Grotesk',marginLeft:'20px'}}>
                     <div>
@@ -123,7 +123,7 @@ useEffect(()=>{
               <Card.Body>
                 <div className='d-flex'>
                   <div className='box ' style={{backgroundColor:'#8923D9' }}>
-                    <FontAwesomeIcon icon={faArrowDown} style={{color:'white'}} />
+                    <FontAwesomeIcon icon={faDollarSign} style={{color:'white'}} />
                   </div>
                   <div style={{fontFamily: 'Space Grotesk',marginLeft:'20px'}}>
                     <div>
